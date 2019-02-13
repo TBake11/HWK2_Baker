@@ -11,7 +11,7 @@ namespace HWK2_Baker
         public int CustomerID { get; set; }
         public int COGQuantity { get; set; }
         public int GearQuantity { get; set; }
-        private DateTime SaleDate;
+        public DateTime SaleDate { get; }
         private double SaleTaxPercent;
         private double CogPrice;
         private double GearPrice;
@@ -22,6 +22,9 @@ namespace HWK2_Baker
             COGQuantity = 0;
             GearQuantity = 0;
         }
-        public
+        public RecieptClass(id : int, cog : int, gear : int)
+        {
+
+        }
     }
 }
